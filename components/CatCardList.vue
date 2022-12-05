@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import { CatResponse } from '~~/types'
+import { CatResponse } from '~/types'
 
 interface Props {
   catList: CatResponse[];
