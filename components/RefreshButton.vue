@@ -7,7 +7,7 @@ const handleClick = () => {
 </script>
 
 <template>
-  <button class="refresh-btn" @click="handleClick">
+  <button class="refresh-btn" data-testid="refresh-btn" @click="handleClick">
     画像入れ替え
   </button>
 </template>

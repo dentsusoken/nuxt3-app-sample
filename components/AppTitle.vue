@@ -1,5 +1,5 @@
 <template>
-  <h1 class="title">
+  <h1 class="title" data-testid="app-title">
     🐈 Pretty cats here!
   </h1>
 </template>
