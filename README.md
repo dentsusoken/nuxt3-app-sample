@@ -1,6 +1,12 @@
-# Nuxt 3 Minimal Starter
+# Nuxt3 App Sample
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+![](https://media.shodousercontents.com/task_images/983/cf5ead1a-bce9-4a43-a859-bf1e9064bc85.gif)
+
+# The Cat API
+
+This app calls The Cat API.
+
+> https://thecatapi.com/
 
 ## Setup
 
