@@ -127,6 +127,9 @@ jobs:
     - name: Generate
       run: yarn generate
 
+    - name: Add .nojekyll
+      run: touch .output/public/.nojekyll
+
     - name: Upload artifact
       uses: actions/upload-pages-artifact@v1
       with:
