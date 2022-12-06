@@ -4,6 +4,11 @@ import Vue from '@vitejs/plugin-vue'
 
 export default defineConfig({
   plugins: [Vue()],
+  resolve: {
+    alias: {
+      '~': `${__dirname}`
+    }
+  },
   test: {
     root: '.',
     globals: true,
