@@ -12,9 +12,10 @@ describe('CatCard', () => {
       width: 100,
       height: 100
     }
-    const { getAllByTestId } = render(CatCard, { props: { data: catData } })
+    const { getAllByTestId, html } = render(CatCard, { props: { catData } })
     const results = getAllByTestId(catData.id)
 
     expect(results.length).toBe(1)
+    expect(html()).contain(`data-testid="${catData.id}"`)
   })
 })
