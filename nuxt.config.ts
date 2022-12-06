@@ -14,5 +14,6 @@ export default defineNuxtConfig({
         { name: 'description', content: '🐈 - This app build by Nuxt 3.' }
       ]
     }
-  }
+  },
+  ssr: false
 })
