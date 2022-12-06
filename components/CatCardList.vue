@@ -17,7 +17,8 @@ defineProps<Props>()
 <style scoped>
 .card-list {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  place-items: center;
   gap: 16px;
 }
 </style>
