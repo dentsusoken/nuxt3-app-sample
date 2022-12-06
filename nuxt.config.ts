@@ -6,6 +6,7 @@ export default defineNuxtConfig({
     typeCheck: true
   },
   app: {
+    baseURL: '/nuxt3-app-sample/',
     head: {
       charset: 'utf-8',
       viewport: 'width=500, initial-scale=1',
