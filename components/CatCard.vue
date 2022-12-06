@@ -2,7 +2,7 @@
 import { CatResponse } from '~/types'
 
 interface Props {
-  data: CatResponse;
+  catData: CatResponse;
 }
 
 defineProps<Props>()
@@ -12,9 +12,9 @@ defineProps<Props>()
   <div>
     <img
       class="card-img"
-      :src="data.url"
+      :src="catData.url"
       alt="cute cat"
-      :data-testid="data.id"
+      :data-testid="catData.id"
     >
   </div>
 </template>

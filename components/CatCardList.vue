@@ -10,7 +10,7 @@ defineProps<Props>()
 
 <template>
   <div class="card-list" data-testid="cat-list">
-    <cat-card v-for="(cat, i) in catList" :key="i" :data="cat" />
+    <cat-card v-for="(cat, i) in catList" :key="i" :cat-data="cat" />
   </div>
 </template>
 
